@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>GeoLand-SEA 2023 Paper Submission Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+
+    <base href="/geolandsea2023/" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicons-->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://geodesi-ugm.github.io/tracker/favicon.png"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="section">
+        <h1 class="title">GeoLand-SEA 2023 Paper Submission Form</h1>
+        <iframe
+          name="hidden_iframe"
+          id="hidden_iframe"
+          style="display: none"
+        ></iframe>
+        <form
+          target="hidden_iframe"
+          method="POST"
+          target="_self"
+          id="mG61Hd"
+          class="form-support"
+          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdfQMueTLeEnJhCoc1fOQqij-gzcU9S94B8n9OLJxJs268koQ/formResponse"
+        >
+          <div class="field">
+            <label class="label">Title</label>
+            <div class="control has-icons-left">
+              <input
+                class="input"
+                type="text"
+                name="entry.1698059273"
+                placeholder="Paper Title"
+              />
+              <span class="icon is-small is-left">
+                <i class="fas fa-scroll"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Authors</label>
+            <div class="control has-icons-left">
+              <input
+                class="input"
+                type="text"
+                name="entry.1240762888"
+                placeholder="Paper Authors"
+              />
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left">
+              <input
+                class="input"
+                type="email"
+                name="entry.268585633"
+                placeholder="Email input"
+              />
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Institution</label>
+            <div class="control has-icons-left">
+              <input
+                class="input"
+                type="text"
+                name="entry.640328695"
+                placeholder="Institution"
+              />
+              <span class="icon is-small is-left">
+                <i class="fas fa-building"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Abstract</label>
+            <div class="control">
+              <textarea
+                class="textarea"
+                placeholder="Paper Abstract"
+                name="entry.1226432864"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="field is-grouped">
+            <div class="control">
+              <button
+                class="button is-link"
+                type="submit"
+                value="Send"
+                name="action"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <script>
+      var formulir = document.querySelector("form");
+      formulir.addEventListener("submit", myFunction);
+
+      function myFunction() {
+        //var element = document.getElementById("maprow");
+        //element.classList.toggle("hide");
+        console.log("submitted");
+        window.location.href = "./thanks";
+      }
+    </script>
+  </body>
+</html>
